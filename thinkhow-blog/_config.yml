@@ -68,4 +68,11 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  root: blog 
+  user: ubuntu
+  root: /home/ubuntu/workspace/thinkhow-blog/thinkhow-blog
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
