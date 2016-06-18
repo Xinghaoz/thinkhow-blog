@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: ec2-52-87-215-25.compute-1.amazonaws.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
