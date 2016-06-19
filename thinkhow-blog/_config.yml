@@ -68,11 +68,14 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: rsync
-  root: blog 
-  user: ubuntu
-  root: /home/ubuntu/workspace/thinkhow-blog/thinkhow-blog
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: false
+  type: s3
+  bucket: thinkhow-blog
+  #repo: https://github.com/Xinghaoz/thinkhow-blog.git
+  #message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  #root: blog 
+  #user: ubuntu
+  #root: /home/ubuntu/workspace/thinkhow-blog/thinkhow-blog
+  #port: 22
+  #delete: true
+  #verbose: true
+  #ignore_errors: false
