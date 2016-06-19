@@ -68,8 +68,11 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: s3
-  bucket: thinkhow-blog
+  type: git
+  repo: https://github.com/Xinghaoz/thinkhow-blog.git
+  branch: gh-pages
+  message: "hexo deploy"
+  #bucket: thinkhow-blog
   #repo: https://github.com/Xinghaoz/thinkhow-blog.git
   #message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
   #root: blog 
